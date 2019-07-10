@@ -37,6 +37,7 @@ libudev_core_sources = '''
         udev-builtin-net_id.c
         udev-builtin-net_setup_link.c
         udev-builtin-path_id.c
+        udev-builtin-sid.c
         udev-builtin-usb_id.c
         net/link-config.c
         net/link-config.h

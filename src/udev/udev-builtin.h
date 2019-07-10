@@ -19,6 +19,7 @@ typedef enum {
         UDEV_BUILTIN_NET_ID,
         UDEV_BUILTIN_NET_LINK,
         UDEV_BUILTIN_PATH_ID,
+        UDEV_BUILTIN_SID,
         UDEV_BUILTIN_USB_ID,
 #if HAVE_ACL
         UDEV_BUILTIN_UACCESS,
@@ -53,6 +54,7 @@ extern const UdevBuiltin udev_builtin_kmod;
 extern const UdevBuiltin udev_builtin_net_id;
 extern const UdevBuiltin udev_builtin_net_setup_link;
 extern const UdevBuiltin udev_builtin_path_id;
+extern const UdevBuiltin udev_builtin_sid;
 extern const UdevBuiltin udev_builtin_usb_id;
 #if HAVE_ACL
 extern const UdevBuiltin udev_builtin_uaccess;
